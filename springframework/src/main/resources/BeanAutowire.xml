@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="zebra" class="com.example.autowire.Animal" autowire="byName"/>
+    <bean id="zebra1" class="com.example.autowire.Animal" autowire="byType"/>
+    <!--by constructor-->
+    <bean id="zebra2" class="com.example.autowire.Animal" autowire="constructor" autowire-candidate="false"/>
+
+    <!--by autodetect--><!--
+    <bean id="zebra2" class="com.example.autowire.Animal" autowire="autodetect"/>-->
+
+    <bean id="color" class="com.example.autowire.Color">
+        <property name="color" value="white"/>
+        <property name="colorId" value="10"/>
+    </bean>
+   <!-- will through error for "byType"-->
+  <!--  <bean id="color1" class="com.example.autowire.Color">
+        <property name="color" value="white"/>
+        <property name="colorId" value="10"/>
+    </bean>-->
+
+</beans>
