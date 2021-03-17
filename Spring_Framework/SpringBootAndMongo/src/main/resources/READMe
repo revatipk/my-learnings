@@ -1,0 +1,309 @@
+Prerequisite : Install Mongodb
+
+Issues and solution,encountered during dev
+https://developer.mongodb.com/community/forums/t/error-couldnt-connect-to-server-127-0-0-1-27017/705/12
+https://github.com/Studio3T/robomongo/issues/1437
+
+    link/ether e6:07:89:ad:b8:4d brd ff:ff:ff:ff:ff:ff link-netnsid 4
+    inet6 fe80::e407:89ff:fead:b84d/64 scope link
+       valid_lft forever preferred_lft forever
+12: vethadb9e1bb@if3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master cni0 state UP group default
+    link/ether b6:ed:6e:44:09:5a brd ff:ff:ff:ff:ff:ff link-netnsid 5
+    inet6 fe80::b4ed:6eff:fe44:95a/64 scope link
+       valid_lft forever preferred_lft forever
+17: veth4652f6a7@if3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master cni0 state UP group default
+    link/ether ee:03:4c:f5:50:85 brd ff:ff:ff:ff:ff:ff link-netnsid 7
+    inet6 fe80::ec03:4cff:fef5:5085/64 scope link
+       valid_lft forever preferred_lft forever
+18: veth85f4d698@if3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master cni0 state UP group default
+    link/ether 02:f3:6d:cc:1b:59 brd ff:ff:ff:ff:ff:ff link-netnsid 8
+    inet6 fe80::f3:6dff:fecc:1b59/64 scope link
+       valid_lft forever preferred_lft forever
+19: vetha28e43e3@if3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master cni0 state UP group default
+    link/ether 2e:5b:94:f4:47:00 brd ff:ff:ff:ff:ff:ff link-netnsid 9
+    inet6 fe80::2c5b:94ff:fef4:4700/64 scope link
+       valid_lft forever preferred_lft forever
+20: vethd7c18eca@if3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master cni0 state UP group default
+    link/ether 7e:5f:6a:a4:08:19 brd ff:ff:ff:ff:ff:ff link-netnsid 10
+    inet6 fe80::7c5f:6aff:fea4:819/64 scope link
+       valid_lft forever preferred_lft forever
+21: veth16135d3c@if3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master cni0 state UP group default
+    link/ether 12:c4:a8:c4:19:b0 brd ff:ff:ff:ff:ff:ff link-netnsid 11
+    inet6 fe80::10c4:a8ff:fec4:19b0/64 scope link
+       valid_lft forever preferred_lft forever
+22: vethe16fd3ad@if3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master cni0 state UP group default
+    link/ether 62:34:bb:c2:6d:0b brd ff:ff:ff:ff:ff:ff link-netnsid 12
+    inet6 fe80::6034:bbff:fec2:6d0b/64 scope link
+       valid_lft forever preferred_lft forever
+[root@sac-hvm01389 ~]#
+[root@sac-hvm01389 ~]# clear
+[root@sac-hvm01389 ~]# /etc/mongod.conf
+-bash: /etc/mongod.conf: Permission denied
+[root@sac-hvm01389 ~]# vi /etc/mongod.conf
+[root@sac-hvm01389 ~]# vi /etc/mongod.conf
+[root@sac-hvm01389 ~]# vi /etc/mongod.conf
+[root@sac-hvm01389 ~]# vi /etc/mongod.conf
+[root@sac-hvm01389 ~]# mongo
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("4cb718d3-c055-4f33-8922-9db133631669") }
+MongoDB server version: 4.4.4
+---
+The server generated these startup warnings when booting:
+        2021-03-17T09:56:53.637-07:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+        2021-03-17T09:56:53.637-07:00: You are running this process as the root user, which is not recommended
+        2021-03-17T09:56:53.637-07:00: This server is bound to localhost. Remote systems will be unable to connect to this server. Start the server with --bind_ip <address> to specify which IP addresses it should serve responses from, or with --bind_ip_all to bind to all interfaces. If this behavior is desired, start the server with --bind_ip 127.0.0.1 to disable this warning
+        2021-03-17T09:56:53.639-07:00: You are running on a NUMA machine. We suggest launching mongod like this to avoid performance problems: numactl --interleave=all mongod [other options]
+        2021-03-17T09:56:53.639-07:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+        2021-03-17T09:56:53.639-07:00: /sys/kernel/mm/transparent_hugepage/defrag is 'always'. We suggest setting it to 'never'
+        2021-03-17T09:56:53.639-07:00: Soft rlimits too low
+        2021-03-17T09:56:53.639-07:00:         currentValue: 1024
+        2021-03-17T09:56:53.639-07:00:         recommendedMinimum: 64000
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> user admin;
+uncaught exception: SyntaxError: unexpected token: identifier :
+@(shell):1:5
+> db.createUser({user:"admin", pwd:"password", roles:[{ role: "root", db: "admin" }]});
+Successfully added user: {
+        "user" : "admin",
+        "roles" : [
+                {
+                        "role" : "root",
+                        "db" : "admin"
+                }
+        ]
+}
+> user admin;
+uncaught exception: SyntaxError: unexpected token: identifier :
+@(shell):1:5
+> user admin;^C
+bye
+[root@sac-hvm01389 ~]# vi /etc/mongod.conf
+(reverse-i-search)`se': ./install -c /root/config.json -d itom --nfs-server sac-hvm01389.swinfra.net --nfs-folder /var/vols/itom/core --feature-gates MultipleDeployment=true --skip-warning --fail-swap-on fal^C
+(reverse-i-search)`start': /opt/OV/traffic-leaf/bin/nmstrafficleaf^Cart.ovpl
+[root@sac-hvm01389 ~]# service mongod restart
+Redirecting to /bin/systemctl restart mongod.service
+[root@sac-hvm01389 ~]# mongo
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("dc2c22e2-8709-45fb-9e80-90d8f85100aa") }
+MongoDB server version: 4.4.4
+> db.createUser({user:"admin", pwd:"password", roles:[{ role: "root", db: "admin" }]});
+uncaught exception: Error: couldn't add user: not authorized on test to execute command { createUser: "admin", pwd: "xxx", roles: [ { role: "root", db: "admin" } ], digestPassword: true, writeConcern: { w: "majority", wtimeout: 600000.0 }, lsid: { id: UUID("dc2c22e2-8709-45fb-9e80-90d8f85100aa") }, $db: "test" } :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.createUser@src/mongo/shell/db.js:1386:11
+@(shell):1:1
+> user admin;
+uncaught exception: SyntaxError: unexpected token: identifier :
+@(shell):1:5
+> db.createUser({user:"admin", pwd:"password", roles:[{ role: "root", db: "admin" }]});
+uncaught exception: Error: couldn't add user: not authorized on test to execute command { createUser: "admin", pwd: "xxx", roles: [ { role: "root", db: "admin" } ], digestPassword: true, writeConcern: { w: "majority", wtimeout: 600000.0 }, lsid: { id: UUID("dc2c22e2-8709-45fb-9e80-90d8f85100aa") }, $db: "test" } :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.createUser@src/mongo/shell/db.js:1386:11
+@(shell):1:1
+> user admin;^C
+bye
+[root@sac-hvm01389 ~]# mongo
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("4acabcb6-b0a3-4541-81bd-d07dc9a023f4") }
+MongoDB server version: 4.4.4
+> db.createUser({user:"revati", pwd:"revati", roles:[{ role: "root", db: "mongodb" }]});
+uncaught exception: Error: couldn't add user: not authorized on test to execute command { createUser: "revati", pwd: "xxx", roles: [ { role: "root", db: "mongodb" } ], digestPassword: true, writeConcern: { w: "majority", wtimeout: 600000.0 }, lsid: { id: UUID("4acabcb6-b0a3-4541-81bd-d07dc9a023f4") }, $db: "test" } :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.createUser@src/mongo/shell/db.js:1386:11
+@(shell):1:1
+> user revati;
+uncaught exception: SyntaxError: unexpected token: identifier :
+@(shell):1:5
+> user admin;^C
+bye
+[root@sac-hvm01389 ~]# mongo
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("ba049334-3c0f-461e-a0e6-6465a8d9e2c9") }
+MongoDB server version: 4.4.4
+> user revati;
+uncaught exception: SyntaxError: unexpected token: identifier :
+@(shell):1:5
+> db.createUser({user:"admin", pwd:"password", roles:[{ role: "root", db: "admin" }]});^C
+bye
+[root@sac-hvm01389 ~]# mongo
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("ef886a2b-f8e7-4050-8e2f-2d4472571776") }
+MongoDB server version: 4.4.4
+> user revati;
+uncaught exception: SyntaxError: unexpected token: identifier :
+@(shell):1:5
+> db.createUser({user:"revati", pwd:"revati", roles:[{ role: "root", db: "mongodb" }]});
+uncaught exception: Error: couldn't add user: not authorized on test to execute command { createUser: "revati", pwd: "xxx", roles: [ { role: "root", db: "mongodb" } ], digestPassword: true, writeConcern: { w: "majority", wtimeout: 600000.0 }, lsid: { id: UUID("ef886a2b-f8e7-4050-8e2f-2d4472571776") }, $db: "test" } :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.createUser@src/mongo/shell/db.js:1386:11
+@(shell):1:1
+> user admin;
+uncaught exception: SyntaxError: unexpected token: identifier :
+@(shell):1:5
+> db.createUser({user:"revati", pwd:"revati", roles:[{ role: "root", db: "mongodb" }]});
+uncaught exception: Error: couldn't add user: not authorized on test to execute command { createUser: "revati", pwd: "xxx", roles: [ { role: "root", db: "mongodb" } ], digestPassword: true, writeConcern: { w: "majority", wtimeout: 600000.0 }, lsid: { id: UUID("ef886a2b-f8e7-4050-8e2f-2d4472571776") }, $db: "test" } :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.createUser@src/mongo/shell/db.js:1386:11
+@(shell):1:1
+>
+>  db.adminCommand( { listDatabases: 1 } )
+{ "databases" : [ ], "totalSize" : 0, "ok" : 1 }
+>
+> use admin
+switched to db admin
+> db.myNewCollection1.insertOne( { x: 1 } )
+uncaught exception: WriteCommandError({
+        "ok" : 0,
+        "errmsg" : "not authorized on admin to execute command { insert: \"myNewCollection1\", ordered: true, lsid: { id: UUID(\"ef886a2b-f8e7-4050-8e2f-2d4472571776\") }, $db: \"admin\" }",
+        "code" : 13,
+        "codeName" : "Unauthorized"
+}) :
+WriteCommandError({
+        "ok" : 0,
+        "errmsg" : "not authorized on admin to execute command { insert: \"myNewCollection1\", ordered: true, lsid: { id: UUID(\"ef886a2b-f8e7-4050-8e2f-2d4472571776\") }, $db: \"admin\" }",
+        "code" : 13,
+        "codeName" : "Unauthorized"
+})
+WriteCommandError@src/mongo/shell/bulk_api.js:417:48
+executeBatch@src/mongo/shell/bulk_api.js:915:23
+Bulk/this.execute@src/mongo/shell/bulk_api.js:1163:21
+DBCollection.prototype.insertOne@src/mongo/shell/crud_api.js:264:9
+@(shell):1:1
+> db.myNewCollection3.createIndex( { y: 1 } )
+{
+        "ok" : 0,
+        "errmsg" : "not authorized on admin to execute command { createIndexes: \"myNewCollection3\", indexes: [ { key: { y: 1.0 }, name: \"y_1\" } ], lsid: { id: UUID(\"ef886a2b-f8e7-4050-8e2f-2d4472571776\") }, $db: \"admin\" }",
+        "code" : 13,
+        "codeName" : "Unauthorized"
+}
+> listCollections
+uncaught exception: ReferenceError: listCollections is not defined :
+@(shell):1:1
+> listdatabases
+uncaught exception: ReferenceError: listdatabases is not defined :
+@(shell):1:1
+> db.collection.find()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "not authorized on admin to execute command { find: \"collection\", filter: {}, lsid: { id: UUID(\"ef886a2b-f8e7-4050-8e2f-2d4472571776\") }, $db: \"admin\" }",
+        "code" : 13,
+        "codeName" : "Unauthorized"
+}
+> db.grantRolesToUser('admin', [{ role: 'root', db: 'admin' }])
+uncaught exception: Error: Could not find user "admin" for db "admin" :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.grantRolesToUser@src/mongo/shell/db.js:1613:15
+@(shell):1:1
+> use admin
+switched to db admin
+> db.createUser(
+...   {
+...     user: 'admin',
+...     pwd: 'password',
+...     roles: [ { role: 'root', db: 'admin' } ]
+...   }
+... );
+Successfully added user: {
+        "user" : "admin",
+        "roles" : [
+                {
+                        "role" : "root",
+                        "db" : "admin"
+                }
+        ]
+}
+> exit;
+[root@sac-hvm01389 ~]# mongo
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c2817556-a3ba-4c4c-84e0-0dcb90e8f3c6") }
+MongoDB server version: 4.4.4
+> use admin;
+switched to db admin
+> db.grantRolesToUser('admin', [{ role: 'root', db: 'admin' }])
+uncaught exception: Error: command grantRolesToUser requires authentication :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.grantRolesToUser@src/mongo/shell/db.js:1613:15
+@(shell):1:1
+> use admin;
+switched to db admin
+> db.collection.find()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "command find requires authentication",
+        "code" : 13,
+        "codeName" : "Unauthorized"
+}
+> db.grantRolesToUser("admin",["readWrite"])
+uncaught exception: Error: command grantRolesToUser requires authentication :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.grantRolesToUser@src/mongo/shell/db.js:1613:15
+@(shell):1:1
+> show collections
+Warning: unable to run listCollections, attempting to approximate collection names by parsing connectionStatus
+> show databases
+> syst.users
+uncaught exception: ReferenceError: syst is not defined :
+@(shell):1:1
+> system.users
+uncaught exception: ReferenceError: system is not defined :
+@(shell):1:1
+> system.version
+uncaught exception: ReferenceError: system is not defined :
+@(shell):1:1
+> ^C
+bye
+[root@sac-hvm01389 ~]# mongo --port 27017 -u "admin" -p "password" --authenticationDatabase "admin"
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?authSource=admin&compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("e9f62218-ceb0-4979-b913-293ed83b734d") }
+MongoDB server version: 4.4.4
+---
+The server generated these startup warnings when booting:
+        2021-03-17T10:07:45.858-07:00: You are running on a NUMA machine. We suggest launching mongod like this to avoid performance problems: numactl --interleave=all mongod [other options]
+        2021-03-17T10:07:45.858-07:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+        2021-03-17T10:07:45.858-07:00: /sys/kernel/mm/transparent_hugepage/defrag is 'always'. We suggest setting it to 'never'
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> show collections
+> use admin
+switched to db admin
+> db.myNewCollection1.insertOne( { x: 1 } )
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("605240f333b242019518e0ac")
+}
+> show collections
+myNewCollection1
+system.users
+system.version
+> show databases
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+>
