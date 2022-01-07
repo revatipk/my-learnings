@@ -13,4 +13,14 @@ public class Chess extends Game {
     void end() {
         System.out.println("Game Finished!");
     }
+
+    @Override
+    public void addNewCharacterToTheGame() {
+
+    }
+
+    @Override
+    public boolean addNewGameCharacter() {
+        return super.addNewGameCharacter();
+    }
 }
