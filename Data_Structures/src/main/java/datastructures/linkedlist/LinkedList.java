@@ -3,26 +3,26 @@ package datastructures.linkedlist;
 public class LinkedList {
     Node head;
     Node tail;
-    int lenght;
+    int length;
 
     public LinkedList(int value){
         head = new Node(value);
         tail = head;
-        lenght =1;
+        length =1;
     }
     public void append(int value){
         Node node = new Node(value);
         tail.next = node;
         tail = node;
-        lenght ++;
+        length++;
     }
-    public int getLenght(){
-        return lenght;
+    public int getLength(){
+        return length;
     }
     public void print(){
         Node node = head;
         int i=0;
-        while (i<lenght)
+        while (i< length)
         {
             System.out.println(node.value);
             node = node.next;
@@ -31,13 +31,13 @@ public class LinkedList {
     }
     public void insert(int value, int index)
     {
-        if(index<0 || index>lenght){
+        if(index<0 || index> length){
             System.out.println("ARRAY OUT OF BOX");
         }
         if(index==0){
             prepend(value);
         }
-        else if(index==lenght)
+        else if(index== length)
         {
             append(value);
         }
@@ -49,19 +49,19 @@ public class LinkedList {
             Node insert = new Node(value);
             insert.next = node.next;
             node.next = insert;
-            lenght++;
+            length++;
         }
     }
     public void prepend(int value){
         Node node = new Node(value);
         node.next = head;
         head = node;
-        lenght++;
+        length++;
     }
 
     public void remove(int index)
     {
-        if(index<0 || index>lenght){
+        if(index<0 || index> length){
             System.out.println("ARRAY OUT OF BOX");
         }
         else if(index ==0)
@@ -69,7 +69,7 @@ public class LinkedList {
             Node node = head;
             head = head.next;
             node = null;
-            lenght--;
+            length--;
         }
         else
         {
@@ -81,10 +81,25 @@ public class LinkedList {
                 i++;
             }
             node.next = node.next.next;
-            lenght--;
-            if(i==lenght-1)
+            length--;
+            if(i== length -1)
                 tail = node;
         }
+    }
+
+    public LinkedList reverse(LinkedList list)
+    {
+        LinkedList newlist = new LinkedList(list.head.value);
+        Node current = list.head;
+        while(current.next!=null)
+        {
+            current=current.next;
+            Node newNode = new Node(current.value);
+            newNode.next = newlist.head;
+            newlist.head = newNode;
+            newlist.length++;
+        }
+        return newlist;
     }
     public static void main(String []args)
     {
@@ -93,10 +108,15 @@ public class LinkedList {
         list.append(14);
         list.append(16);
         list.print();
+        System.out.println("\n");
         list.insert(15,3);
         list.print();
+        System.out.println("\n");
         list.remove(2);
         list.print();
+        System.out.println("\n");
+        LinkedList reverse = list.reverse(list);
+        reverse.print();
     }
 
 }

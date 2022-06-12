@@ -3,29 +3,29 @@ package datastructures.stack.stackUsingLinkedlist;
 public class Stack {
     Node top;
     Node bottom;
-    int lenght;
+    int length;
 
     public Stack()
     {
         top=null;
         bottom=null;
-        lenght = 0;
+        length = 0;
     }
 
     public void push(String input) {
         Node node = new Node(input);
-        if (lenght == 0) {
+        if (length == 0) {
             top = bottom = node;
         } else {
             node.next = top;
             top = node;
-            lenght++;
+            length++;
         }
     }
         public void pop () {
             System.out.println(top.value);
             top = top.next;
-            lenght--;
+            length--;
         }
         public String peek ()
         {
@@ -36,7 +36,7 @@ public class Stack {
         }
         public boolean isEmpty ()
         {
-            if (lenght > 0)
+            if (length > 0)
                 return false;
             return true;
         }
