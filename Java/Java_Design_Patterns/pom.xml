@@ -13,7 +13,8 @@
         <module>Structural</module>
         <module>Behaviorial</module>
         <module>untitled</module>
+        <module>Structural</module>
+        <module>Creational</module>
     </modules>
-
 
 </project>

@@ -1,108 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71644058-5956-4153-a7b3-6537c8c8195a" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="71644058-5956-4153-a7b3-6537c8c8195a" name="Default Changelist" comment="Refactoring code">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Java_Design_Patterns/Creational/Creational.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Java_Design_Patterns/Java_Design_Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Java_Design_Patterns/Structural/Structural.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Java_Design_Patterns/Structural/src/main/java/Decorator/ReadMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/collections/CopyOnWriteArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/java8/AnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/java8/MethodReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/java8/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/java8/StringJoinerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/java8/lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/java8/streams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/java8/streams/EmployeeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/java8/streams/SimpleStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/jvm/ShutdownHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/multithreading/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/multithreading/RunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/multithreading/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/multithreading/ThreadGroupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/sortingAlgorithm/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/sortingAlgorithm/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/userInput/BufferReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/userInput/FastReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/java/userInput/ScannerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/PracticePrograms/src/main/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/binarytree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/searching/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/searching/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Java8_Features/FunctionalInterface/FunctionalInterface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Java8_Features/FunctionalInterface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Java8_Features/FunctionalInterface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Java_Design_Patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Java_Design_Patterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/CastingExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/CastingExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/DataType/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/DataType/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/DateAndTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/DateAndTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/DoWhile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/DoWhile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/ExceptionHandling/ExceptionHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/ExceptionHandling/ExceptionHandling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/ExceptionHandling/FinallyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/ExceptionHandling/FinallyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Fizz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Fizz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/JustLoop/JustLooping.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/JustLoop/JustLooping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/Condition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/Condition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/PersonTestJava7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/PersonTestJava7$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/PersonTestJava7$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/PersonTestJava7$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/PersonTestJava7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Lambdas/PersonTestJava7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Mixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Mixer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/SwitchExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/SwitchExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/TestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/TestException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/TestOutCE.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/TestOutCE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/clothing/Shirt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/clothing/Shirt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/clothing/pants/Jeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/clothing/pants/Jeans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/conditionExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/conditionExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/AccessTest$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/AccessTest$Inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/AccessTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/AccessTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ArrayList/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ArrayList/ArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/DataTimeAPIs/TestDataTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/DataTimeAPIs/TestDataTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/ExceptionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/ExceptionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/FLows.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/FLows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/ForSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/ForSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/JustLooping.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/JustLooping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/DaysTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/DaysTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/E1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/E1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/E2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/E2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/E21.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/E21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/testException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/MyException/testException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/abstractClassWithMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FLowsAndExceptions/abstractClassWithMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ForSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ForSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FunWithArgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/FunWithArgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/IFExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/IFExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Baap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Baap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Beta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Beta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/ClassB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/ClassB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Nobs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Nobs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Sub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Super.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/Super.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/SuperSubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/SuperSubTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Inheritance/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/JavaDataType/Discounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/JavaDataType/Discounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/JavaDataType/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/JavaDataType/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/OOConcepts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/OOConcepts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Operators.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Operators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ParameterTests/Bandwidth.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ParameterTests/Bandwidth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ParameterTests/ParamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ParameterTests/ParamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ParameterTests/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/ParameterTests/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/PracticeTEst2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/PracticeTEst2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/StringAPIs/OperatorOnStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/StringAPIs/OperatorOnStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/StringAPIs/StringBufferEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/StringAPIs/StringBufferEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/StringAPIs/StringFromChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/StringAPIs/StringFromChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/StringAPIs/SubstringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/StringAPIs/SubstringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Widget.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/Widget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/booleanExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/booleanExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/Base2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/Base2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/MultipleClassInAFile/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/MultipleClassInAFile/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/MultipleClassInAFile/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/MultipleClassInAFile/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/SubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/SubClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/Super.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/Super.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/concepts/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/mainMethod/ArgsPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/mainMethod/ArgsPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/mainMethod/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/mainMethod/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/enthuware/workingWithMethods/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/enthuware/workingWithMethods/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/java2s.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/java2s.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/staticExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/staticExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCA/target/classes/wrapperClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OCA/target/classes/wrapperClasses.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/sorting/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/sorting/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="83" lean-forward="true" selection-start-line="75" selection-start-column="3" selection-end-line="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/sorting/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="69" column="5" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="69" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/sorting/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/sorting/HeapSort_Working.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/sorting/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/sorting/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/searching/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" selection-start-line="18" selection-start-column="2" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/searching/JumpSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/searching/ExponetialSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,6 +136,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,12 +156,8 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
@@ -140,6 +165,8 @@
     <option name="width" value="1946" />
     <option name="height" value="1106" />
   </component>
+  <component name="ProjectId" id="28mu1rY58EMPlbC0DPIMopf0JTJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -204,29 +231,28 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614328681691" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/datastructures/doublylinkedlist" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my-learnings\Data_Structures\src\main\java\datastructures\doublylinkedlist" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.JumpSearch">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearch" />
-      <module name="Data_Structures" />
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.binarytree.BinaryTree" />
+      <module name="datastructure.algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.searching.*" />
+          <option name="PATTERN" value="datastructures.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.HeapSort" />
-      <module name="Data_Structures" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.recursion.Factorial" />
+      <module name="datastructure.algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="datastructures.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort_Working" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.HeapSort_Working" />
-      <module name="Data_Structures" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.recursion.Fibonacci" />
+      <module name="datastructure.algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="datastructures.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.JumpSearch" />
-      <module name="Data_Structures" />
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.graphs.Graph" />
+      <module name="datastructure.algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.searching.*" />
+          <option name="PATTERN" value="datastructures.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,29 +299,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSort" />
-      <module name="Data_Structures" />
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.queues.queuesUsingLinkedList.Queue" />
+      <module name="datastructure.algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="datastructures.queues.queuesUsingLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JumpSearch" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.HeapSort_Working" />
+        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.Queue" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -307,6 +345,49 @@
       <option name="presentableId" value="Default" />
       <updated>1614187164514</updated>
     </task>
+    <task id="LOCAL-00001" summary="Hash Table implementation">
+      <created>1654411507376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654411507376</updated>
+    </task>
+    <task id="LOCAL-00002" summary="LinkedList implementation">
+      <created>1654429623587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654429623587</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DoublyLinkedList implementation">
+      <created>1654435746187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654435746187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Stack implementation">
+      <created>1654503660381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654503660381</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Recursion Examples">
+      <created>1654992838899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654992838900</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactoring code">
+      <created>1654992882401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654992882401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -342,26 +423,83 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hash Table implementation" />
+    <MESSAGE value="LinkedList implementation" />
+    <MESSAGE value="DoublyLinkedList implementation" />
+    <MESSAGE value="Stack implementation" />
+    <MESSAGE value="Recursion Examples" />
+    <MESSAGE value="Refactoring code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring code" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/sorting/SelectionSort.java</url>
           <line>5</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/sorting/QuickSort.java</url>
           <line>8</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/sorting/QuickSort.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructures/arrays/MergeSortedArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructures/arrays/MergeSortedArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructures/hashtable/HashTable.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructures/linkedlist/LinkedList.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructures/linkedlist/LinkedList.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructures/linkedlist/LinkedList.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructures/queues/queuesUsingLinkedList/Queue.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructures/graphs/Graph.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

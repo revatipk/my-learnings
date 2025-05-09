@@ -1,5 +1,7 @@
 package algorithms.searching;
 
+import datastructures.binarytree.BinaryTree;
+
 public class BinarySearch {
     public int search(int arr[], int l, int r,int x)
     {
@@ -15,6 +17,13 @@ public class BinarySearch {
         return -1;
 
     }
+   /* public int breadthFristSearch(int arr[])
+    {
+        if(arr.length==0)
+        {
+            return -1;
+        }
+    }*/
 
     public  static void main(String []args)
     {
@@ -27,7 +36,6 @@ public class BinarySearch {
             System.out.println("Value not found");
         else
             System.out.print("Value found");
-
     }
 
 }
