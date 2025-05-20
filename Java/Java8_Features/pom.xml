@@ -18,6 +18,7 @@
         <module>MapAndReduce</module>
         <module>ParallelStream</module>
         <module>LambaExpressions</module>
+        <module>Collectors</module>
     </modules>
 
 
